@@ -26,23 +26,23 @@ Para executar o projeto em seu computador local, siga as etapas abaixo:
 
  3. Instale as dependências do projeto executando o seguinte comando:
 
- npm install
+  npm install
 
- ou
+  ou
 
- yarn install
+  yarn install
 
 
  4. Com as dependências instaladas, você pode iniciar o servidor de desenvolvimento com o comando:
 
- npm start
+  npm start
 
- ou
+  ou
 
- yarn start
+  yarn start
 
 
-5. Aguarde até que o servidor de desenvolvimento seja iniciado. Após a compilação, você poderá acessar o projeto em seu navegador através do endereço:
+  5. Aguarde até que o servidor de desenvolvimento seja iniciado. Após a compilação, você poderá acessar o projeto em seu navegador através do endereço:
 
 ## http://localhost:3000
 
