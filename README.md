@@ -20,11 +20,11 @@ Para executar o projeto em seu computador local, siga as etapas abaixo:
  - Gerenciador de pacotes npm ou yarn
 
 ### Passos
- 1. Faça o clone deste repositório para o seu ambiente local ou faça o download do código-fonte.
+1. Faça o clone deste repositório para o seu ambiente local ou faça o download do código-fonte.
 
- 2. Abra o terminal ou prompt de comando e navegue até o diretório raiz do projeto.
+2. Abra o terminal ou prompt de comando e navegue até o diretório raiz do projeto.
 
- 3. Instale as dependências do projeto executando o seguinte comando:
+3. Instale as dependências do projeto executando o seguinte comando:
 
   npm install
 
