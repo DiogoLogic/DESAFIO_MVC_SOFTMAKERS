@@ -7,39 +7,39 @@
 O projeto DESAFIO_PROJETO_MVC_SOFTMAKERS é uma aplicação web desenvolvida em React que segue a estrutura do padrão de arquitetura Modelo-Visão-Controlador (MVC). Ele permite gerenciar uma lista de animais de estimação, fornecendo funcionalidades para adicionar, visualizar, editar e excluir animais da lista.
 
 ## Funcionalidades
-- Adicionar um novo animal de estimação, fornecendo nome, espécie e idade.
-- Visualizar a lista completa de animais de estimação cadastrados.
-- Editar as informações de um animal de estimação existente.
-- Excluir um animal de estimação da lista.
+ - Adicionar um novo animal de estimação, fornecendo nome, espécie e idade.
+ - Visualizar a lista completa de animais de estimação cadastrados.
+ - Editar as informações de um animal de estimação existente.
+ - Excluir um animal de estimação da lista.
 
 ## Como rodar o projeto em outro computador
 Para executar o projeto em seu computador local, siga as etapas abaixo:
 
 ### Pré-requisitos
-- Node.js instalado (versão 12 ou superior)
-- Gerenciador de pacotes npm ou yarn
+ - Node.js instalado (versão 12 ou superior)
+ - Gerenciador de pacotes npm ou yarn
 
 ### Passos
-1. Faça o clone deste repositório para o seu ambiente local ou faça o download do código-fonte.
+ 1. Faça o clone deste repositório para o seu ambiente local ou faça o download do código-fonte.
 
-2. Abra o terminal ou prompt de comando e navegue até o diretório raiz do projeto.
+ 2. Abra o terminal ou prompt de comando e navegue até o diretório raiz do projeto.
 
-3. Instale as dependências do projeto executando o seguinte comando:
+ 3. Instale as dependências do projeto executando o seguinte comando:
 
-npm install
+ npm install
 
-ou
+ ou
 
-yarn install
+ yarn install
 
 
-4. Com as dependências instaladas, você pode iniciar o servidor de desenvolvimento com o comando:
+ 4. Com as dependências instaladas, você pode iniciar o servidor de desenvolvimento com o comando:
 
-npm start
+ npm start
 
-ou
+ ou
 
-yarn start
+ yarn start
 
 
 5. Aguarde até que o servidor de desenvolvimento seja iniciado. Após a compilação, você poderá acessar o projeto em seu navegador através do endereço:
