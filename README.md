@@ -80,18 +80,33 @@ Agora você pode explorar todas as funcionalidades do projeto DESAFIO_PROJETO_MV
 
 Para criar o banco de dados e a tabela "Pets", execute a seguinte query:
 
+```sql
 CREATE TABLE IF NOT EXISTS public."Pets" (
-id integer NOT NULL DEFAULT nextval('"Pets_id_seq"'::regclass),
-nome character varying(100) COLLATE pg_catalog."default" NOT NULL,
-idade integer NOT NULL,
-especie "enum_Pets_especie" NOT NULL,
-raca character varying(255) COLLATE pg_catalog."default" NOT NULL,
-"nomeDono" character varying(255) COLLATE pg_catalog."default" NOT NULL,
-"telefoneDono" character varying(255) COLLATE pg_catalog."default" NOT NULL,
-"createdAt" timestamp with time zone NOT NULL,
-"updatedAt" timestamp with time zone NOT NULL,
-CONSTRAINT "Pets_pkey" PRIMARY KEY (id)
-);
+  id integer NOT NULL DEFAULT nextval('"Pets_id_seq"'::regclass),
+  nome character varying(100) COLLATE pg_catalog."default" NOT NULL,
+  idade integer NOT NULL,
+  especie "enum_Pets_especie" NOT NULL,
+  raca character varying(255) COLLATE pg_catalog."default" NOT NULL,
+  "nomeDono" character varying(255) COLLATE pg_catalog."default" NOT NULL,
+  "telefoneDono" character varying(255) COLLATE pg_catalog."default" NOT NULL,
+  "createdAt" timestamp with time zone NOT NULL,
+  "updatedAt" timestamp with time zone NOT NULL,
+  CONSTRAINT "Pets_pkey" PRIMARY KEY (id)
+)
+Este código SQL cria a tabela "Pets" com as seguintes colunas:
+
+id: inteiro, chave primária, autoincremento.
+nome: varchar(100), não nulo.
+idade: inteiro, não nulo.
+especie: enumeração (valores específicos a serem definidos), não nulo.
+raca: varchar(255), não nulo.
+nomeDono: varchar(255), não nulo.
+telefoneDono: varchar(255), não nulo.
+createdAt: timestamp com fuso horário, não nulo.
+updatedAt: timestamp com fuso horário, não nulo.
+Certifique-se de ter criado o banco de dados "seu-pet" no PostgreSQL antes de executar essa query.
+
+Lembre-se de adaptar as configurações de acordo com o seu ambiente antes de executar o código SQL.
 
 ALTER TABLE IF EXISTS public."Pets"
 OWNER to postgres;
