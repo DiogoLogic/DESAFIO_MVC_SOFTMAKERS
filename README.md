@@ -98,14 +98,15 @@ ALTER TABLE IF EXISTS public."Pets"
     OWNER to postgres;
 
 GRANT ALL ON TABLE public."Pets" TO postgres;
-  ## ________________________________________________________________________________________________________________________
+  ## ____________________________________________________________________
 
+## Tecnologias usadas no projeto:
 React: biblioteca JavaScript para a construção da interface do usuário.
 styled-components: biblioteca para estilização dos componentes utilizando CSS-in-JS.
 axios: cliente HTTP para realizar requisições à API REST local.
 react-toastify: biblioteca para exibição de notificações na interface.
 
-## Estrutura MVC
+## Estrutura MVC:
 O projeto Seu-Pet segue a arquitetura Modelo-Visão-Controlador (MVC). Essa estrutura separa as responsabilidades em três componentes principais:
 Modelo (Model): Responsável pelo gerenciamento dos dados e regras de negócio.
 Visão (View): Responsável pela interface do usuário, exibindo os dados e interagindo com o usuário.
