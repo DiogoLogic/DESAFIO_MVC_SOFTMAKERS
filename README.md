@@ -98,7 +98,7 @@ ALTER TABLE IF EXISTS public."Pets"
     OWNER to postgres;
 
 GRANT ALL ON TABLE public."Pets" TO postgres;
-  
+  ## ________________________________________________________________________________________________________________________
 
 React: biblioteca JavaScript para a construção da interface do usuário.
 styled-components: biblioteca para estilização dos componentes utilizando CSS-in-JS.
