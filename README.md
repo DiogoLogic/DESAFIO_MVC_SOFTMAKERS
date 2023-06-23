@@ -42,7 +42,7 @@ Para executar o projeto em seu computador local, siga as etapas abaixo:
   yarn start
 
 
-  5. Aguarde até que o servidor de desenvolvimento seja iniciado. Após a compilação, você poderá acessar o projeto em seu navegador através do endereço:
+ 5. Aguarde até que o servidor de desenvolvimento seja iniciado. Após a compilação, você poderá acessar o projeto em seu navegador através do endereço:
 
 ## http://localhost:3000
 
