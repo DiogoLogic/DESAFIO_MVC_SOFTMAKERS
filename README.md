@@ -3,22 +3,21 @@
 ## Nome: Diogo Felipe
 ## Email: diogoinformatica1@gmail.com
 ## Contato: (81)97103-9950
-
-O projeto Seu-Pet é uma aplicação web desenvolvida em React que segue a estrutura do padrão de arquitetura Modelo-Visão-Controlador (MVC). Ele permite gerenciar uma lista de animais de estimação, fornecendo funcionalidades para adicionar, visualizar, editar e excluir animais da lista.
+O projeto DESAFIO_PROJETO_MVC_SOFTMAKERS é uma aplicação web desenvolvida em React que segue a estrutura do padrão de arquitetura Modelo-Visão-Controlador (MVC). Ele permite gerenciar uma lista de animais de estimação, fornecendo funcionalidades para adicionar, visualizar, editar e excluir animais da lista.
 
 ## Funcionalidades
-Adicionar um novo animal de estimação, fornecendo nome, espécie e idade.
-Visualizar a lista completa de animais de estimação cadastrados.
-Editar as informações de um animal de estimação existente.
-Excluir um animal de estimação da lista.
-Como rodar o projeto em outro computador
-Para executar o projeto em seu computador local, siga as etapas abaixo:
+- 100. First list item
+- Adicionar um novo animal de estimação, fornecendo nome, espécie e idade.
+- Visualizar a lista completa de animais de estimação cadastrados.
+- Editar as informações de um animal de estimação existente.
+- Excluir um animal de estimação da lista.
 
 ## Pré-requisitos
-Node.js instalado (versão 12 ou superior)
-Gerenciador de pacotes npm ou yarn
-Passos
-Faça o clone deste repositório para o seu ambiente local ou faça o download do código-fonte.
+- 100. First list item
+- Node.js instalado (versão 12 ou superior)
+- Gerenciador de pacotes npm ou yarn
+- Passos
+- Faça o clone deste repositório para o seu ambiente local ou faça o download do código-fonte.
 
 Abra o terminal ou prompt de comando e navegue até o diretório raiz do projeto.
 
@@ -76,7 +75,7 @@ Agora você pode explorar todas as funcionalidades do projeto Seu-Pet em seu pr�
   ## Banco de dados criado no PostgresSQL
   
   ## Crie o banco chamado seu-pet.
-  ## Em seguida execute a seguite query para criar a tabela "Pets":
+  ## Em seguida execute a seguinte query para criar a tabela "Pets":
   
   CREATE TABLE IF NOT EXISTS public."Pets"
 (
